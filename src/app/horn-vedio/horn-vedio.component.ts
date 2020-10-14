@@ -149,7 +149,6 @@ export class HornVedioComponent implements OnInit {
     //   // authToken: 'NjzZvBTwSMDEd56FXHnScrVBaIBLcNLXZIzdNNlH5CxB1qsb4c1yKMjGiIdE0WvL'
     // });
     AuthenticationService.getIdAndAuth().then((data) => {
-      // console.log(data, 'pwd')
       this.userId = data;
     });
     // UsersService.register('NjzZvBTwSMDEd56FXHnScrVBaIBLcNLXZIzdNNlH5CxB1qsb4c1yKMjGiIdE0WvL', '', '', 'pooja', 'test').then((data) => {

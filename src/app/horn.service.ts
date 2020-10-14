@@ -13,7 +13,6 @@ export class HornService {
 
   getAuthorized() {
     return this.http.get('https://horn.co/api/v1_0/auth/oauth/authenticate/XOQZIpR3NNwA3sRZWac2/google?mobile=false')
-
   }
 
   getContextUser() {
